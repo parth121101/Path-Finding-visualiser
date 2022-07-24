@@ -1,17 +1,17 @@
 {
-    "homepage": "https://NamanHH99.github.io/Graph-Path-Find-Algorithm",
+    "homepage": "https://parth121101.github.io/Path-Finding-visualiser/",
     "name": "pathfinder",
     "version": "1.0.0",
     "description": "",
     "keywords": [],
     "main": "src/index.js",
     "dependencies": {
-        "gh-pages": "^4.0.0",
         "react": "16.8.6",
         "react-dom": "16.8.6",
         "react-scripts": "3.2.0"
     },
     "devDependencies": {
+        "gh-pages": "^4.0.0",
         "typescript": "3.3.3"
     },
     "scripts": {
