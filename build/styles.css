@@ -1,0 +1,238 @@
+html {
+  font-family: "Montserrat", sans-serif;
+}
+.gridBlock{
+  width: 37px;
+  height: 37px;
+  border: 3px solid #f5ba13;
+}
+.gridWrapper {
+  max-width: 80%;
+  margin: auto;
+  padding: 2%;
+}
+.GridRowWrapper {
+  display: flex;
+}
+.VisitedNode{
+  animation-duration: 2.25s;
+  animation-timing-function: ease-out;
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+}
+.VisitedDijkstraNode {
+  animation-name: VisitedDijkstraAnimation;
+}
+@keyframes VisitedDijkstraAnimation {
+  0% {
+    transform: scale(0.3);
+    background-color: #774360;
+    border-radius: 10%;
+  }
+
+  50% {
+    background-color: #bef9b2;
+  }
+
+  75% {
+    transform: scale(1.2);
+    background-color: #bef9b2;
+  }
+
+  100% {
+    transform: scale(1);
+    background-color: #bef9b2;
+  }
+}
+.VisitedBFSNode {
+  animation-name: VisitedBFSAnimation;
+}
+
+@keyframes VisitedBFSAnimation {
+  0% {
+    transform: scale(0.3);
+    background-color: #1363DF;
+    border-radius: 10%;
+  }
+
+  50% {
+    background-color: #8ecdf8;
+  }
+
+  75% {
+    transform: scale(1.2);
+    background-color: #8ecdf8;
+  }
+
+  100% {
+    transform: scale(1);
+    background-color: #8ecdf8;
+  }
+}
+
+.VisitedDFSNode {
+  animation-name: VisitedDFSAnimation;
+}
+@keyframes VisitedDFSAnimation {
+  0% {
+    transform: scale(0.3);
+    background-color: #6a0bde;
+    border-radius: 10%;
+  }
+
+  50% {
+    background-color: #F6C6EA;
+  }
+
+  75% {
+    transform: scale(1.2);
+    background-color: #F6C6EA;
+  }
+
+  100% {
+    transform: scale(1);
+    background-color: #F6C6EA;
+  }
+}
+
+
+.PathNodes {
+  animation-duration: 2.25s;
+  animation-timing-function: ease-out;
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+}
+.PathDijkstraNodes{
+  animation-name: PathDijkstraAnimation;
+}
+@keyframes PathDijkstraAnimation{
+  0% {
+    transform: scale(0.6);
+    background-color: #fc0026;
+  }
+
+  50% {
+    transform: scale(1.2);
+    background-color: #fc0026;
+  }
+
+  100% {
+    transform: scale(1);
+    background-color: #fc0026;
+  }
+}
+.PathBFSNodes{
+  animation-name: PathBFSAnimation;
+}
+@keyframes PathBFSAnimation{
+  0% {
+    transform: scale(0.6);
+    background-color: #FFC900;
+  }
+
+  50% {
+    transform: scale(1.2);
+    background-color: #FFC900;
+  }
+
+  100% {
+    transform: scale(1);
+    background-color: #FFC900;
+  }
+}
+.PathDFSNodes{
+  animation-name: PathDFSAnimation;
+}
+@keyframes PathDFSAnimation{
+  0% {
+    transform: scale(0.6);
+    background-color: #f77a44;
+  }
+
+  50% {
+    transform: scale(1.2);
+    background-color: #f77a44;
+  }
+
+  100% {
+    transform: scale(1);
+    background-color: #f77a44;
+  }
+}
+.clearNode{
+  background-color: white;
+}
+.heading{
+  background-color: #f5ba13;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  color: #fff;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+  position: relative;
+}
+.heading h1{
+  display: inline-block;
+}
+.heading button{
+  position: absolute;
+  right: 230px;
+}
+.copyright{
+  background-color: #f5ba13;
+  margin: 10px 0px 0px 0px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  color: #fff;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+  text-align: center;
+}
+.buttons{
+  font-family: "McLaren", cursive;
+  margin-bottom: 6.5%;
+  line-height: 1.6;
+  position: relative;
+}
+.reset{
+  position: absolute;
+  right: 30px;
+}
+.dijkstra{
+  position: absolute;
+  left: 30px;
+}
+.bfs{
+  position: absolute;
+  left: 160px;
+}
+.dfs{
+  position: absolute;
+  left: 250px;
+}
+.setNodes{
+  position: absolute;
+  right: 135px;
+}
+.Headers{
+  font-family: "McLaren", cursive;
+  margin-bottom: 2%;
+  padding-left: 33px;
+  line-height: 1.6;
+}
+.subHeading{
+  padding-right: 20px;
+}
+.colorHeader{
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  margin-right: 10px;
+}

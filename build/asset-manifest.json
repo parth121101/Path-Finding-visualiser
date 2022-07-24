@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.js": "/Graph-Path-Find-Algorithm/static/js/main.32dfe44b.chunk.js",
+    "main.js.map": "/Graph-Path-Find-Algorithm/static/js/main.32dfe44b.chunk.js.map",
+    "runtime-main.js": "/Graph-Path-Find-Algorithm/static/js/runtime-main.0c8b5b5a.js",
+    "runtime-main.js.map": "/Graph-Path-Find-Algorithm/static/js/runtime-main.0c8b5b5a.js.map",
+    "static/js/2.2a5cd9c2.chunk.js": "/Graph-Path-Find-Algorithm/static/js/2.2a5cd9c2.chunk.js",
+    "static/js/2.2a5cd9c2.chunk.js.map": "/Graph-Path-Find-Algorithm/static/js/2.2a5cd9c2.chunk.js.map",
+    "index.html": "/Graph-Path-Find-Algorithm/index.html",
+    "precache-manifest.6113c8543421775a25e56cb1bc71e3e3.js": "/Graph-Path-Find-Algorithm/precache-manifest.6113c8543421775a25e56cb1bc71e3e3.js",
+    "service-worker.js": "/Graph-Path-Find-Algorithm/service-worker.js"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0c8b5b5a.js",
+    "static/js/2.2a5cd9c2.chunk.js",
+    "static/js/main.32dfe44b.chunk.js"
+  ]
+}
